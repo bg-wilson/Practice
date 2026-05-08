@@ -81,6 +81,9 @@ def main():
 
     tree.in_order(tree.root)
 
+    #Naive understanding: to free up memory in python just set the root to None
+    #the garbage collector will take care of the rest
+    tree.root = None
 
 
 
